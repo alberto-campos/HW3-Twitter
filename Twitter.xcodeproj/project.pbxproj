@@ -19,6 +19,9 @@
 		5AA5645B189C457F007561E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA56443189C457F007561E5 /* UIKit.framework */; };
 		5AA56463189C457F007561E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AA56461189C457F007561E5 /* InfoPlist.strings */; };
 		5AA56465189C457F007561E5 /* TwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA56464189C457F007561E5 /* TwitterTests.m */; };
+		5AA56470189C45D6007561E5 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA5646F189C45D6007561E5 /* TableViewController.m */; };
+		5AA56473189C4ADD007561E5 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA56472189C4ADD007561E5 /* CustomCell.m */; };
+		5AA56475189C4B12007561E5 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AA56474189C4B12007561E5 /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		5AA56460189C457F007561E5 /* TwitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterTests-Info.plist"; sourceTree = "<group>"; };
 		5AA56462189C457F007561E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5AA56464189C457F007561E5 /* TwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterTests.m; sourceTree = "<group>"; };
+		5AA5646E189C45D6007561E5 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5AA5646F189C45D6007561E5 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		5AA56471189C4ADD007561E5 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		5AA56472189C4ADD007561E5 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		5AA56474189C4B12007561E5 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,11 @@
 				5AA5644F189C457F007561E5 /* AppDelegate.m */,
 				5AA56451189C457F007561E5 /* Images.xcassets */,
 				5AA56446189C457F007561E5 /* Supporting Files */,
+				5AA5646E189C45D6007561E5 /* TableViewController.h */,
+				5AA5646F189C45D6007561E5 /* TableViewController.m */,
+				5AA56471189C4ADD007561E5 /* CustomCell.h */,
+				5AA56472189C4ADD007561E5 /* CustomCell.m */,
+				5AA56474189C4B12007561E5 /* CustomCell.xib */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -219,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA56475189C4B12007561E5 /* CustomCell.xib in Resources */,
 				5AA5644A189C457F007561E5 /* InfoPlist.strings in Resources */,
 				5AA56452189C457F007561E5 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AA56450189C457F007561E5 /* AppDelegate.m in Sources */,
+				5AA56470189C45D6007561E5 /* TableViewController.m in Sources */,
+				5AA56473189C4ADD007561E5 /* CustomCell.m in Sources */,
 				5AA5644C189C457F007561E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
